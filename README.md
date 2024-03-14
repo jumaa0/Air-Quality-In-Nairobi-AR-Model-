@@ -48,8 +48,7 @@ This project analyzes air quality data from Nairobi, focusing on PM-2.5 levels, 
 - pymongo
 
 ## Credits
-- Data source: [Your data source]
-- Libraries used: [List of libraries]
+- Data source: [https://africaopendata.org/dataset/sensorsafrica-airquality-archive-nairobi]
 
 
 
