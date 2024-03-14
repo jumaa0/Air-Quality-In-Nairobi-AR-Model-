@@ -14,19 +14,28 @@ This project analyzes air quality data from Nairobi, focusing on PM-2.5 levels, 
 `git clone https://github.com/your-username/air-quality-nairobi.git`
 
 2. Install the required Python packages:
+
 `pip install -r requirements.txt`
 
 
 ## Usage
 1. Start by restoring the MongoDB backup:
+
 `mongorestore --db mydatabase /path/to/backup/directory/mydatabase`
-2. Run the Jupyter Notebook `air_quality_analysis.ipynb`.
-3. Follow the instructions in the notebook to connect to the MongoDB database, import the data, and analyze it.
-4. The notebook includes sections for data preparation, exploratory data analysis, model building, and evaluation.
-5. The final model predicts PM-2.5 levels for the year 2023 and evaluates its performance using mean absolute error (MAE).
+
+2. Run the Jupyter Notebook
+
+`air_quality_analysis.ipynb`
+
+4. Follow the instructions in the notebook to connect to the MongoDB database, import the data, and analyze it.
+5. The notebook includes sections for data preparation, exploratory data analysis, model building, and evaluation.
+6. The final model predicts PM-2.5 levels for the year 2023 and evaluates its performance using mean absolute error (MAE).
+
 
 ## Files
+
 - `air_quality_analysis.ipynb`: Jupyter Notebook containing the project code.
+
 - `mongodb_backup`: MongoDB backup file containing the air quality data.
 
 ## Dependencies
